@@ -1,0 +1,90 @@
+/* Base */
+body {
+    background-color: #f2f4f8;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #2c3e50;
+}
+
+/* Header */
+.site-header {
+    background-color: #0b4f6c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 30px;
+}
+
+/* Logo */
+.logo {
+    max-height: 70px;
+    width: auto;
+}
+
+/* Header izquierda */
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Título */
+.titulo h1 {
+    margin: 0;
+    font-size: 20px;
+    color: white;
+}
+
+.titulo p {
+    margin: 0;
+    font-size: 14px;
+    color: #e6e6e6;
+}
+
+/* Menú */
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #ffd700;
+    text-decoration: underline;
+}
+
+/* Contenido */
+main {
+    padding: 20px;
+}
+
+/* Secciones */
+.mensaje-fe {
+    text-align: center;
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.bloques {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.bloques article {
+    background: white;
+    padding: 20px;
+    border-left: 5px solid #ffd700;
+}
+
+/* Footer */
+footer {
+    background-color: #0b4f6c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
